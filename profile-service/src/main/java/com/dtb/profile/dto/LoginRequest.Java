@@ -1,4 +1,4 @@
-package com.dtb.profile_service.dto;
+package com.dtb.profile.dto;
 
 @Data
 public class LoginRequest {

@@ -1,10 +1,9 @@
-package com.dtb.profile_service.controller;
+package com.dtb.profile.controller;
 
-import com.dtb.profile_service.dto.LoginRequest;
-import com.dtb.profile_service.RegisterRequest;
-import com.dtb.profile_service.User;
-import com.bank.profile.security.JwtTokenUtil;
-import com.dtb.profile_service.service.UserService;
+import com.dtb.profile.security.JwtTokenUtil;
+import com.dtb.profile.security.JwtFilter;
+import com.dtb.profile.User;
+import com.dtb.profile.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

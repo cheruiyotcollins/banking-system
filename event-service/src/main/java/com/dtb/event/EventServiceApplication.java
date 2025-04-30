@@ -1,4 +1,4 @@
-package com.dtb.event_service;
+package com.dtb.event;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

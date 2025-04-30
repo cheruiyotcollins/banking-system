@@ -1,4 +1,4 @@
-package com.dtb.event_service.service;
+package com.dtb.event.service;
 
 import com.bank.events.model.Event;
 import lombok.extern.slf4j.Slf4j;

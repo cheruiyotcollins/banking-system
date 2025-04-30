@@ -1,4 +1,4 @@
-package com.dtb.event_service.controller;
+package com.dtb.event.controller;
 
 @RestController
 @RequestMapping("/events")

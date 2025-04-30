@@ -1,4 +1,4 @@
-package com.dtb.event_service;
+package com.dtb.event;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
