@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8887c52e-ae9b-4081-b155-ea1c99323f0d" name="Changes" comment="feat: profile service implementation">
+      <change afterPath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event/model/Event.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/src/main/java/com/dtb/store_of_value/client/ProfileClient.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/src/main/java/com/dtb/store_of_value/controller/AccountController.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/src/main/java/com/dtb/store_of_value/dto/AccountRequestDto.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/src/main/java/com/dtb/store_of_value/dto/AccountResponseDto.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/src/main/java/com/dtb/store_of_value/model/Account.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/src/main/java/com/dtb/store_of_value/repository/AccountRepository.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/src/main/java/com/dtb/store_of_value/service/AccountService.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/src/test/java/com/dtb/store_of_value_service/AccountIntegrationTest.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-of-value-service/src/test/java/com/dtb/store_of_value_service/AccountServiceTest.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/banking-system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/dtb/config_server/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/dtb/config_server/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event_service/EventServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event/EventServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event_service/config/RabbitMQConfig.Java" beforeDir="false" afterPath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event/config/RabbitMQConfig.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event_service/controller/EventController.Java" beforeDir="false" afterPath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event/controller/EventController.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event_service/service/EmailService.Java" beforeDir="false" afterPath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event/service/EmailService.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event_service/service/NotificationService.Java" beforeDir="false" afterPath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event/service/NotificationService.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event_service/service/TransactionEventListener.Java" beforeDir="false" afterPath="$PROJECT_DIR$/event-service/src/main/java/com/dtb/event/service/TransactionEventListener.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-service/src/test/java/com/dtb/event_service/EventServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-service/src/test/java/com/dtb/event_service/EventServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event-service/src/test/java/com/dtb/event_service/TransactionEventListenerTest.Java" beforeDir="false" afterPath="$PROJECT_DIR$/event-service/src/test/java/com/dtb/event_service/TransactionEventListenerTest.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/client/AccountClient.Java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment/client/AccountClient.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/PaymentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment/PaymentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/config/SwaggerConfig.Java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment/config/SwaggerConfig.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/controller/PaymentController.Java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment/controller/PaymentController.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/model/Transaction.Java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment/model/Transaction.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/model/TransactionStatus.Java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/model/TransactionType.Java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/repository/TransactionRepository.Java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment/repository/TransactionRepository.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/service/EventPublisher.Java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment/service/EventPublisher.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/service/PaymentService.Java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment/service/PaymentService.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/ProfileServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/ProfileServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/config/JwtFilter.Java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/security/JwtFilter.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/config/JwtTokenUtil.Java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/security/JwtTokenUtil.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/config/OpenApiConfig.Java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/config/OpenApiConfig.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/controller/AuthController.Java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/controller/AuthController.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/dto/LoginRequest.Java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/dto/LoginRequest.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/dto/RegisterRequest.Java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/dto/RegisterRequest.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/model/User.Java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/model/User.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/repository/UserRepository.Java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/repository/UserRepository.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile_service/service/UserService.Java" beforeDir="false" afterPath="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/service/UserService.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-of-value-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/store-of-value-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-of-value-service/src/main/java/com/dtb/store_of_value_service/StoreOfValueServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-of-value-service/src/main/java/com/dtb/store_of_value/StoreOfValueServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-of-value-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/store-of-value-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cheruiyotcollins&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cheruiyotcollins/banking-system.git&quot;,
+    &quot;accountId&quot;: &quot;56ebfcd0-7606-493f-8d59-6bb78a8f4e46&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2wORnPBw3ljaY7cNK3zGQsACE4k" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApiGatewayApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cheruiyotkelvincollins/Projects/banking-system/profile-service/src/main/java/com/dtb/profile_service/config&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/profile-service/src/main/java/com/dtb/profile/security" />
+      <recent name="$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment/config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dtb.api_gateway.ApiGatewayApplication" />
+      <module name="main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiGatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8887c52e-ae9b-4081-b155-ea1c99323f0d" name="Changes" comment="" />
+      <created>1745910801222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745910801222</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat: created parent and children pom">
+      <option name="closed" value="true" />
+      <created>1745946201428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745946201428</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: event service implementation">
+      <option name="closed" value="true" />
+      <created>1745946258802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745946258802</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: payment service implementation">
+      <option name="closed" value="true" />
+      <created>1745946310584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745946310584</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: profile service implementation">
+      <option name="closed" value="true" />
+      <created>1745949361082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745949361082</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: created parent and children pom" />
+    <MESSAGE value="feat: event service implementation" />
+    <MESSAGE value="feat: payment service implementation" />
+    <MESSAGE value="feat: profile service implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: profile service implementation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/payment-service/src/main/java/com/dtb/payment_service/controller/PaymentController.Java</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
