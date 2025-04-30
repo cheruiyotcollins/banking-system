@@ -1,7 +1,8 @@
-package com.dtb.store_of_value_service;
+package com.dtb.store_of_value;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient

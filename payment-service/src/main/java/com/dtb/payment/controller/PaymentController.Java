@@ -1,4 +1,4 @@
-package com.dtb.payment_service.controller;
+package com.dtb.payment.controller;
 
 @RestController
 @RequestMapping("/api/payments")

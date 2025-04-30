@@ -1,4 +1,4 @@
-package com.dtb.event_service.config;
+package com.dtb.event.config;
 @Configuration
 public class RabbitMQConfig {
 

@@ -1,4 +1,4 @@
-package com.dtb.event_service.service;
+package com.dtb.event.service;
 @Service
 public class TransactionEventListener {
 

@@ -1,9 +1,9 @@
-package com.dtb.profile_service.service;
+package com.dtb.profile.service;
 
-import com.dtb.profile_service.LoginRequest;
-import com.dtb.profile_service.RegisterRequest;
-import com.dtb.profile_service.entity.User;
-import com.dtb.profile_service.repository.UserRepository;
+import com.dtb.profile.LoginRequest;
+import com.dtb.profile.RegisterRequest;
+import com.dtb.profile.entity.User;
+import com.dtb.profile.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

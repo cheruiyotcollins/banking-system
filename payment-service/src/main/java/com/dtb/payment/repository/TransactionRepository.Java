@@ -1,4 +1,4 @@
-package com.dtb.payment_service.repository;
+package com.dtb.payment.repository;
 
 public interface TransactionRepository extends JpaRepository<Transaction, String> {
     List<Transaction> findByAccountId(String accountId);

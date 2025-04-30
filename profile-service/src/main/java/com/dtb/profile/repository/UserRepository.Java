@@ -1,6 +1,6 @@
-package com.dtb.profile_service.repository;
+package com.dtb.profile.repository;
 
-import com.dtb.profile_service.entity.User;
+import com.dtb.profile.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

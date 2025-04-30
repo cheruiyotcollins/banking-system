@@ -1,4 +1,4 @@
-package com.dtb.payment_service.config;
+package com.dtb.payment.config;
 @Configuration
 public class SwaggerConfig {
 

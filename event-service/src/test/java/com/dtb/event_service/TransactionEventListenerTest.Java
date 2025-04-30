@@ -1,4 +1,4 @@
-package com.dtb.event_service;
+package com.dtb.event;
 @ExtendWith(MockitoExtension.class)
 public class TransactionEventListenerTest {
 

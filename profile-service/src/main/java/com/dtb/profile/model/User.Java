@@ -1,4 +1,4 @@
-package com.dtb.profile_service.model;
+package com.dtb.profile.model;
 @Data
 @Entity
 public class User {

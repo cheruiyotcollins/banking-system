@@ -1,4 +1,4 @@
-package com.dtb.payment_service.model;
+package com.dtb.payment.model;
 @Data
 @Entity
 public class Transaction {
