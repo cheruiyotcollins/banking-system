@@ -1,5 +1,5 @@
 
-package com.dtb.payment_service.client;
+package com.dtb.payment.client;
 
 @FeignClient(name = "store-of-value-service")
 public interface AccountClient {
